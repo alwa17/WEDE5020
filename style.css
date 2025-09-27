@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    color: #222;
+    margin-bottom: 15px;
+}
+h2 {
+    color: #0066cc;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h3 {
+    margin-top: 15px;
+    color: #444;
+}
+h4 {
+    margin-top: 10px;
+    color: #b22222;
+}
+
+/* Navigation */
+nav {
+    margin-bottom: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+    margin: 0 8px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Logo */
+img {
+    max-width: 150px;
+    margin: 15px 0;
+}
+
+/* Tables */
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #eee;
+}
+
+/* Lists */
+ul {
+    margin: 15px 0 15px 25px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #004c99;
+}
