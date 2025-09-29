@@ -17,3 +17,8 @@ This page will have detail of times and days that the practises will take place,
 •	The contact us page:
 This page will have contact details of the heads of the organization and social media handles of the organization.
 
+IMPROVEMENTS FROM PART 1
+
+Navigation bar centered. 
+More information added to the website.
+The logo has shifted to the far right to make it easy for responsive design.
