@@ -5,7 +5,7 @@ body {
     padding: 0;
     background: #f9f9f9;
     text-align: center;
-}
+}  /*(w3schools, 2025)*/
 
 /* Container for centralization */
 .container {
@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
     padding: 15px;
     background: #fff;
-}
+} /*(w3schools, 2025)*/
 
 /* Header styles */
 .site-header {
@@ -37,31 +37,31 @@ nav {
     padding: 10px;
     margin: 15px 0;
     border-radius: 5px;
-}
+} /*(w3schools, 2025)*/
 nav a {
     margin: 0 10px;
     text-decoration: none;
     color: #000;
     font-weight: bold;
-}
+} /*(w3schools, 2025)*/
 nav a:hover {
     color: #2b4d2b;
-}
+} /*(w3schools, 2025)*/
 
 /* Tables */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-}
+} /*(w3schools, 2025)*/
 th, td {
     border: 1px solid #ddd;
     padding: 10px;
-}
+} /*(w3schools, 2025)*/
 th {
     background: #2b4d2b;
     color: #fff;
-}
+}/*(w3schools, 2025)*/
 
 /* Contact form */
 form {
@@ -75,31 +75,39 @@ input, textarea, button {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
+} /*(w3schools, 2025)*/
 button {
     background: lightgreen;
     border: none;
     cursor: pointer;
     font-weight: bold;
-}
+} /*(w3schools, 2025)*/
 button:hover {
     background: #2b4d2b;
     color: #fff;
-}
+} /*(w3schools, 2025)*/
 
 /* Responsive design */
 @media (max-width: 768px) {
     .site-header {
         flex-direction: column;
         text-align: center;
-    }
+    } /*(Mozilla Developer Network (MDN), 2025)*/
     nav {
         font-size: 14px;
-    }
+    } /*(Mozilla Developer Network (MDN), 2025)*/
 }
 @media (max-width: 480px) {
     nav a {
         display: block;
         margin: 8px 0;
     }
-}
+} /*(Mozilla Developer Network (MDN), 2025)*/
+/* 
+referencing 
+Mozilla Developer Network (MDN). (2025) CSS: Cascading Style Sheets. Mozilla. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
+ (Accessed: 28 September 2025).
+
+W3Schools. (2025) CSS Tutorial. Available at: https://www.w3schools.com/css/
+ (Accessed: 28 September 2025).
+ /* 
