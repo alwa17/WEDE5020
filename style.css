@@ -1,98 +1,105 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body */
+/* General body styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-    background-color: #f9f9f9;
-    color: #333;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    text-align: center;
 }
 
-/* Headings */
-h1 {
-    color: #222;
-    margin-bottom: 15px;
-}
-h2 {
-    color: #0066cc;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-h3 {
-    margin-top: 15px;
-    color: #444;
-}
-h4 {
-    margin-top: 10px;
-    color: #b22222;
+/* Container for centralization */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background: #fff;
 }
 
-/* Navigation */
+/* Header styles */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.site-header h1 {
+    margin: 0;
+    color: #2b4d2b;
+}
+.site-header img {
+    max-width: 120px;
+    height: auto;
+}
+
+/* Navigation bar */
 nav {
-    margin-bottom: 20px;
+    background: lightgreen;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
 }
 nav a {
+    margin: 0 10px;
     text-decoration: none;
-    color: #0066cc;
-    margin: 0 8px;
+    color: #000;
     font-weight: bold;
 }
 nav a:hover {
-    text-decoration: underline;
-}
-
-/* Logo */
-img {
-    max-width: 150px;
-    margin: 15px 0;
+    color: #2b4d2b;
 }
 
 /* Tables */
 table {
-    width: 75%;
+    width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
 }
-table, th, td {
-    border: 1px solid #333;
+th, td {
+    border: 1px solid #ddd;
     padding: 10px;
-    text-align: left;
 }
 th {
-    background-color: #eee;
+    background: #2b4d2b;
+    color: #fff;
 }
 
-/* Lists */
-ul {
-    margin: 15px 0 15px 25px;
-}
-
-/* Contact Form */
+/* Contact form */
 form {
     display: flex;
     flex-direction: column;
-    width: 300px;
     gap: 10px;
+    margin: 20px auto;
+    max-width: 500px;
 }
-input, textarea {
+input, textarea, button {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 button {
-    background-color: #0066cc;
-    color: white;
-    padding: 10px;
+    background: lightgreen;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 button:hover {
-    background-color: #004c99;
+    background: #2b4d2b;
+    color: #fff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav {
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
 }
